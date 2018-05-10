@@ -33,7 +33,7 @@ rules: [
   {
     // match all .gltf files
     test: /\.(gltf)$/,
-    loader: 'gltf-loader'
+    loader: 'gltf-loader-2'
   },
   {
     // here I match only IMAGE and BIN files under the gltf folder

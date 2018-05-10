@@ -1,6 +1,6 @@
 {
   "name": "gltf-loader-2",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A webpack loader for .gltf files, should automatically bundles all referenced files.",
   "main": "index.js",
   "scripts": {

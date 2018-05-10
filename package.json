@@ -1,0 +1,25 @@
+{
+  "name": "gltf-loader-2",
+  "version": "0.0.1",
+  "description": "A webpack loader for .gltf files, should automatically bundles all referenced files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/MONOGRID/gltf-loader-2"
+  },
+  "bugs": {
+    "url": "https://github.com/MONOGRID/gltf-loader-2/issues"
+  },
+  "homepage": "https://github.com/MONOGRID/gltf-loader-2",
+  "keywords": [
+    "gltf",
+    "webgl",
+    "webpack",
+    "loader"
+  ],
+  "author": "Daniele Pelagatti <daniele@mono-grid.com>",
+  "license": "MIT"
+}

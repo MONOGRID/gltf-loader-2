@@ -25,7 +25,7 @@ module.exports = function(source) {
     );
     // Trim away matched space at first char
     trimmedMatches = uniqueMatches.map(item =>
-      item.trim().replace(/^\s*("uri"\s*:\s*)/, '').replace(/"/g, '')
+      item.trim().replace(/^\s*("uri"\s*:\s*)/, '').replace(/"|,/g, '')
     );
   }
   // add dependencies to this loader
